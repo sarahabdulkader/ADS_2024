@@ -46,8 +46,8 @@ Modulo operator
 Division with corresponding results
 """
 # # Division with floating-point result
-# result_float = 15 / 4
-# print(f"Result of 15 / 4 (floating-point): {result_float}")
+#result_float = 15 / 4
+#print(f"Result of 15 / 4 (floating-point): {result_float}")
 #
 # # Division with integer result using floor division
 # result_integer = 15 // 4

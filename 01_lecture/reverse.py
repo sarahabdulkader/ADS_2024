@@ -54,6 +54,6 @@ elif budget_difference > 0:
         "Congratulation, after buying your groceries, you have " + apply_printing_format_to_number(budget_difference) +
         "€ left!")
 else:
-    print("You have bought all your groceries but no more money!")
+    print("You have bought all your groceries but you're broke!")
 
 print("Goodbye " + name + "!")

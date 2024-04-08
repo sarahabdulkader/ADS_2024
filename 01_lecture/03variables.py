@@ -37,9 +37,9 @@ As implied by the name variable, the value stored in a variable can change.
 """
 Assigning multiple values at once
 """
-# a = b = "Hello"
-# print(a)
-# print(b)
+#a = b = "Hello"
+#print(a)
+#print(b)
 
 """
 Assigning different values to multiple variables
@@ -126,9 +126,9 @@ Floating point numbers
 Floating point number or float is a term you will come across often in programming. 
 It refers to numbers with a decimal point. They can be used much in the same way as integer values.
 """
-# number1 = 2.5
-# number2 = -1.25
-# number3 = 3.62
+number1 = 2.5
+number2 = -1.25
+number3 = 3.62
 #
-# mean = (number1 + number2 + number3) / 3
-# print(f"Mean: {mean}")
+mean = (number1 + number2 + number3) / 3
+print(f"Mean: {mean}")
