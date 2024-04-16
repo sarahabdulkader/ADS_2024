@@ -9,7 +9,8 @@ Example:
     heyheyheyhey
 """
 # Write your solution here
-
+#enter = "hey"
+#print(enter * 4)
 """
 Write a program which asks the user for two strings and then prints out whichever is the longer of the two - 
 that is, whichever has the more characters. If the strings are of equal length, the program 
@@ -27,6 +28,14 @@ Examples:
 """
 
 # Write your solution here
+#string_1 = input("Enter one string: ")
+#string_2 = input("Enter another string: ")
+#if len(string_1) < len(string_2):
+#    print(f"{string_2} has more characters than {string_1}.")
+#elif len(string_1) > len(string_2):
+#    print(f"{string_1} has more characters than {string_2}.")
+#else:
+#    print("Both strings are of equal lenght.")
 
 """
 Write a program which asks the user for a string. The program then prints out the input string in reversed order, 
@@ -43,7 +52,8 @@ for i in range(len(str) - 1, -1, -1):
     print(str[i])
 
 # Write your solution here
-
+string = input("Enter a string: ")
+print(len(string) [-1])
 """
 Write a program which asks the user for a string. 
 The program then prints out a message based on whether the second character and the second to last character 
