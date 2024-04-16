@@ -6,7 +6,7 @@ Strings can be combined -> concatenated with the `+` operator
 """
 
 # begin = "ex"
-# end = "ample"
+# end = "amplee"
 # word = begin+end
 # print(word) # prints: example
 
