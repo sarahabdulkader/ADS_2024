@@ -52,27 +52,27 @@ Break vs Condition
 """
 
 # # 1st version using the break command
-# sum = 0
-#
-# while True:
+#sum = 0
+
+#while True:
 #     number = int(input("Please type in a number, -1 to exit: "))
 #     if number == -1:
 #         break
 #     sum += number
-#
-# print (f"The sum is {sum}")
+
+#print (f"The sum is {sum}")
 #
 # # 2nd version without the break command
 #
-# sum = 0
-# number = 0
-#
-# while number != -1:
+#sum = 0
+#number = 0
+
+#while number != -1:
 #     number = int(input("Please type in a number, -1 to exit: "))
 #     if number != -1:
 #         sum += number
-#
-# print (f"The sum is {sum}")
+
+#print (f"The sum is {sum}")
 
 """
 Continue vs Break
@@ -86,17 +86,17 @@ continue:
     It is typically used to skip specific iterations or values within a loop.
 """
 
-# sum = 0
-#
-# while True:
+#sum = 0
+
+#while True:
 #     number = int(input("Please type in a number, -1 to exit: "))
 #     if number == -1:
 #         break
 #     if number >= 10:
 #         continue
 #     sum += number
-#
-# print (f"The sum is {sum}")
+
+#print (f"The sum is {sum}")
 
 """
 Nested Loops
@@ -117,30 +117,30 @@ Nested loops are used for various purposes, including:
     as trees or graphs, where each node may have multiple children.
 """
 
-# number = int(input("Please type in a number: "))
-# while number > 0:
-#     i = 0
-#     while i < number:
-#         print(f"{i} ", end="")
-#         i += 1
-#     print()
-#     number -= 1
+#number = int(input("Please type in a number: "))
+#while number > 0:
+#    i = 0
+#    while i < number:
+#        print(f"{i} ", end="")
+#        i += 1
+#    print()
+#    number -= 1
 
 """
 Pattern printing example.
 """
-# rows = 5
-#
-# # Outer loop for rows
-# i = 1
-# while i <= rows:
-#     # Inner loop for columns
-#     j = 1
-#     while j <= i:
-#         print("*", end=" ")  # Print asterisk
-#         j += 1
-#     print()  # Move to the next line after printing each row
-#     i += 1
+rows = 5
+
+# Outer loop for rows
+i = 1
+while i <= rows:
+# Inner loop for columns
+    j = 1
+    while j <= i:
+        print("*", end=" ")  # Print asterisk
+        j += 1
+    print()  # Move to the next line after printing each row
+    i += 1
 
 """
 PIN and number attempts

@@ -91,9 +91,9 @@ You can also use negative indexing to access characters counting from the end of
 The last character in a string is at index -1, the second to last character is at index -2, and so forth. 
 You can think of input_string[-1] as shorthand for input_string[len(input_string) - 1].
 """
-input_string = input("Please type in a string: ")
-print("First character: " + input_string[0])
-print("Last character: " + input_string[-1])
+# input_string = input("Please type in a string: ")
+# print("First character: " + input_string[0])
+# print("Last character: " + input_string[-1])
 
 """
 IndexError: string index out of range
