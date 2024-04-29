@@ -10,7 +10,9 @@ Execute the function after its definition and run the program!
 """
 
 # Write your solution here
-
+#def bark():
+ #   print("Woof")
+#bark()
 """
 ### Function with 1 Argument, additional logic ###
 
@@ -30,6 +32,33 @@ Examples:
 """
 
 # Write your solution here
+
+
+
+# class coding:
+#def make_sound(animal):
+#    animal = animal.lower()
+#    if animal == "dog":
+#        print("woof")
+#    elif animal == "cat":
+#        print("meow")
+#    elif animal == "pig":
+#        print("oink")
+#    else:
+#        print("???")
+#i = 0
+#while i < 4:
+#    animal_input = input("enter an animal:").lower()
+#    make_sound(animal_input)
+#    i += 1
+
+
+
+
+
+
+
+
 
 """
 ### Function with 2 Arguments ###
@@ -51,7 +80,17 @@ Ask the user repeatedly using a loop.
 """
 
 # Write your solution here
+text = input("Enter your text: ")
+times = input("How many times do you want to repeat your text? ")
+def print_many_times(text: str, times: int):
+    print(text * times)
 
+# class coding:
+
+def print_many_times(text: str, times: int):
+  #  print((text + "\n") * times)
+   print(f"{text} 
+    
 """
 ### Return Values ###
 
@@ -66,6 +105,21 @@ Example:
 Additional Task:
 Add a type hint to the return value of the function!
 """
+
+def print_greatest(a: int, b: int, c: int):
+    print(f"The greatest number is {number}!")
+    if a > b and a > c:
+        return a
+    elif b > a and b > c:
+        return b
+    elif c > a and c > b:
+        return c
+    else:
+        return a
+
+
+return_value = greatest_number(a:3, b:4, c:1))
+
 
 # Write your solution here
 

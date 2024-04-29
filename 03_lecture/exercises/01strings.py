@@ -9,9 +9,13 @@ Example:
     heyheyheyhey
 """
 # Write your solution here
-#enter = "hey"
-#print(enter * 4)
-"""
+#enter = input("Please type in a string: ")
+#n = int(input("Please type in an amount: "))
+#print(enter * n)
+
+
+""""
+
 Write a program which asks the user for two strings and then prints out whichever is the longer of the two - 
 that is, whichever has the more characters. If the strings are of equal length, the program 
 should print out "The strings are equally long".
@@ -35,7 +39,7 @@ Examples:
 #elif len(string_1) > len(string_2):
 #    print(f"{string_1} has more characters than {string_2}.")
 #else:
-#    print("Both strings are of equal lenght.")
+#    print("Both strings are equally long.")
 
 """
 Write a program which asks the user for a string. The program then prints out the input string in reversed order, 
@@ -52,8 +56,15 @@ for i in range(len(str) - 1, -1, -1):
     print(str[i])
 
 # Write your solution here
-string = input("Enter a string: ")
-print(len(string) [-1])
+
+
+
+#input_string = input("Please type in a string: ")
+#index = -1
+#while abs(index) <= len(input_string):
+#    print(input_string[index])
+#    index -= 1
+
 """
 Write a program which asks the user for a string. 
 The program then prints out a message based on whether the second character and the second to last character 
@@ -68,6 +79,14 @@ Examples:
 """
 # Write your solution here
 
+#input_string = input("Please type in a string: ")
+#if input_string[1] == input_string[-2]:
+#    print(f"The second and the second last characters are {input_string[1]}")
+#    print(input_string)
+#else:
+#    print("The second and the second to last characters are different.")
+
+
 """
 Write a program which prints out a line of hash characters, the width of which is chosen by the user.
 
@@ -79,6 +98,11 @@ Examples:
     ##
 """
 # Write your solution here
+#symbol = "#"
+#width = int(input("Enter a width: "))
+#print(symbol * width)
+
+
 
 """
 Modify the previous program so that it also asks for the height, and prints out a rectangle of hash characters accordingly.
@@ -91,6 +115,14 @@ Example:
     ##########
 """
 # Write your solution here
+#symbol = "#"
+#height = int(input("Enter a height: "))
+#width = int(input("Enter a width: "))
+#i = 0
+#while i < height:
+#    print(symbol * width)
+#    i += 1
+
 
 """
 Write a program which asks the user for a string and then prints it out so that exactly 20 characters are displayed. 
@@ -106,6 +138,15 @@ Examples:
     **********helloworld 
 """
 # Write your solution here
+
+# string = input("Input a string: ")
+# star = 20 - len(string)
+# if len(string) == 20:
+#     print(string)
+# elif len(string) > 20:
+#     print("The string is too long.")
+# else:
+#     print("*" * int(star) + string)
 
 """
 Please write a program which asks the user for a string and then prints out a frame of * characters with the word in the centre. 
@@ -128,6 +169,15 @@ Examples:
 """
 # Write your solution here
 
+# stars = 30 * "*"
+# string = input("Please input a string: ")
+# spaces = (28 - len(string)) // 2
+# print(stars)
+# if len(string) % 2 == 0:
+#     print("*" + spaces * " " + string + spaces * " " + "*")
+# elif len(string) % 2 == 1:
+#     print("*" + (spaces + 1) * " " + string + spaces * " " + "*")
+# print(stars)
 
 """
 Write a program which asks the user to type in a string. 
@@ -143,6 +193,17 @@ Example:
 """
 # Write your solution here
 
+#string = input("Please type in a string: ")
+#index = 0
+#i = 0
+#all_strings = ""
+#while i < len(string):
+#    print(all_strings + string[index])
+#    all_strings += string[index]
+#    index += 1
+#    i += 1
+
+
 """
 Write a program which asks the user to type in a string. 
 The program then prints out all the substrings which end with the last character, from the shortest to the longest. 
@@ -156,6 +217,16 @@ Example:
     test
 """
 # Write your solution here
+
+#string = input("Please type in a string: ")
+#index = -1
+#i = 0
+#all_strings = ""
+#while i < len(string):
+#    print(all_strings + string[index])
+#    all_strings += string[index]
+#    index -= 1
+#    i += 1
 
 """
 Write a program which asks the user to input a string. The program then prints out different messages if the string 
@@ -174,6 +245,7 @@ You may assume the input will be in lowercase entirely. Have a look at the examp
     o not found
 """
 # Write your solution here
+
 
 
 """
