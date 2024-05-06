@@ -50,13 +50,19 @@ Try to solve this example in 2 ways:
 """
 # Write your solution here
 
+# def reverse_string_negative_index(string):
+#     reversed_string = string[::-1]
+#     for i in range(-1, -len(reversed_string) - 1, -1):
+#         print(reversed_string[i])
 
+# user_input = input("Enter a string: ")
+# reverse_string_negative_index(user_input)
 
-#input_string = input("Please type in a string: ")
-#index = -1
-#while abs(index) <= len(input_string):
-#    print(input_string[index])
-#    index -= 1
+# input_string = input("Please type in a string: ")
+# index = -1
+# while abs(index) <= len(input_string):
+#     print(input_string[index])
+#     index -= 1
 
 """
 Write a program which asks the user for a string. 
@@ -211,15 +217,15 @@ Example:
 """
 # Write your solution here
 
-#string = input("Please type in a string: ")
-#index = -1
-#i = 0
-#all_strings = ""
-#while i < len(string):
-#    print(all_strings + string[index])
-#    all_strings += string[index]
-#    index -= 1
-#    i += 1
+string = input("Please type in a string: ")
+index = -1
+i = 0
+all_strings = ""
+while i < len(string):
+    print(all_strings + string[index])
+    all_strings += string[index]
+    index -= 1
+    i += 1
 
 """
 Write a program which asks the user to input a string. The program then prints out different messages if the string 
