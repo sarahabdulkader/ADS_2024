@@ -53,13 +53,6 @@ Examples:
 #    i += 1
 
 
-
-
-
-
-
-
-
 """
 ### Function with 2 Arguments ###
 
@@ -80,16 +73,16 @@ Ask the user repeatedly using a loop.
 """
 
 # Write your solution here
-text = input("Enter your text: ")
-times = input("How many times do you want to repeat your text? ")
-def print_many_times(text: str, times: int):
-    print(text * times)
+#text = input("Enter your text: ")
+#times = input("How many times do you want to repeat your text? ")
+#def print_many_times(text: str, times: int):
+#    print(text * times)
 
 # class coding:
 
-def print_many_times(text: str, times: int):
+#def print_many_times(text: str, times: int):
   #  print((text + "\n") * times)
-   print(f"{text} 
+#   print(f"{text}
     
 """
 ### Return Values ###
@@ -106,19 +99,23 @@ Additional Task:
 Add a type hint to the return value of the function!
 """
 
-def print_greatest(a: int, b: int, c: int):
-    print(f"The greatest number is {number}!")
-    if a > b and a > c:
-        return a
-    elif b > a and b > c:
-        return b
-    elif c > a and c > b:
-        return c
-    else:
-        return a
 
+#def return_value(a: int, b: int, c: int):
+#    print(f"The greatest number is {return_value}!")
+#    if a > b and a > c:
+ #       return a
+ #   elif b > a and b > c:
+ #       return b
+ #   elif c > a and c > b:
+ #       return c
+ #   else: return a
 
-return_value = greatest_number(a:3, b:4, c:1))
+#def greatest_number(a, b, c):
+#    return max(a, b, c)
+#def print_greatest(number):
+#    print("The greatest number is", number, "!")
+#return_value = greatest_number(3, 4, 1)
+#print_greatest(return_value)
 
 
 # Write your solution here
@@ -146,6 +143,15 @@ Example Outputs:
 
 # Write your solution here
 
+def super_print(text: str, uppercase: bool) -> str:
+    if uppercase:
+        print(text.upper())
+    else:
+        print(text)
+
+super_print("Hey its me!", False)
+
+
 """
 ### Default Values ###
 
@@ -163,3 +169,11 @@ Example:
 """
 
 # Write your solution here
+def greet(name) -> str:
+    print("Hello", name + "!")
+
+your_name = input("Please enter your name: ")
+if your_name:
+    greet(your_name)
+else:
+    greet("Unknown")
