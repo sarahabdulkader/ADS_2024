@@ -8,9 +8,16 @@ Examples:
     print(is_dotw("Fri")) # True
     print(is_dotw("Tui")) # False
 """
+import re
+def is_dotw(my_string: str):
+   pattern = r'\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)$'
+   return bool (re.search(pattern, my_string))
 
 
-"""
+print(is_dotw("Fri is a bad day"))
+
+
+""""
 Write a function named all_vowels(my_string: str) which uses a regular expression to check whether all characters in the given string are vowels.
 
 Some examples of how the function should work:
@@ -18,6 +25,11 @@ Some examples of how the function should work:
     print(all_vowels("eioueioieoieou")) # True
     print(all_vowels("autoooo"))        # False
 """
+import re
+def all_vowels(my_string: str):
+   pattern = r'^[aeiouAEIOU]+$'
+   return bool(re.search(pattern, my_string))
+
 
 """
 Write a function named time_of_day(my_string: str) which uses a regular expression to check whether 
