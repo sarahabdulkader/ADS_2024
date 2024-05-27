@@ -17,6 +17,14 @@ Examples:
 
 """
 # Write your solution here
+#fir_num = int(input("Please type in the first number:"))
+#sec_num = int(input("Please type in another number:"))
+#if fir_num > sec_num:
+#    print(f"The number greater was {fir_num}")
+#elif fir_num < sec_num:
+#    print(f"The number greater was {sec_num}")
+#else:
+#    print("The numbers are equal!")
 
 """
 Python comparison operators can also be used on strings. 
@@ -43,7 +51,14 @@ You gave the same word twice.
 
 """
 # Write your solution here
-
+#fir_wor = input("Please type in the 1st word:")
+#sec_wor = input("Please type in the 2nd word:")
+#if fir_wor > sec_wor:
+#    print(f"{fir_wor} comes alphabetically last.")
+#elif fir_wor < sec_wor:
+#    print(f"{sec_wor} comes alphabetically last.")
+#elif fir_wor == sec_wor:
+#    print("You gave the same word twice.")
 """
 Write a program which asks for the user's name. 
 If the name is Huey, Dewey or Louie, the program should recognise the user as one of Donald Duck's nephews.
@@ -60,6 +75,14 @@ Examples:
     You're not a nephew of any character I know of.
 """
 # Write your solution here
+#name = input("Please type in your name:")
+#if name == 'Morty' or name == 'Ferdie':
+#    print("I think you might be one of Mickey Mouse's nephews.")
+#elif name == 'Huey' or name == 'Dewey' or name == 'Louie':
+#    print("I think you might be one of Donald Duck's nephews.")
+#else:
+#    print("You are no ones nephew.")
+
 
 """
 FizzBuzz
@@ -81,6 +104,15 @@ Examples:
     FizzBuzz
 """
 # Write your solution here
+#number = int(input("Enter a number:"))
+#if number % 3 == 0 and number % 5 == 0:
+#    print("FizzBuzz")
+#elif number % 5 == 0:
+#    print("Buzz")
+#elif number % 3 == 0:
+#    print("Fizz")
+#else:
+#    print("Pick another number.")
 
 
 """
@@ -101,4 +133,10 @@ Examples:
     That year is not a leap year.
 """
 # Write your solution here
-
+#year = int(input("Enter a year:"))
+#if year % 4 == 0 and year % 100 == 0 and year % 400 == 0:
+#    print(f"{year} is a leap year!")
+#elif year % 4 == 0:
+#    print(f"{year} is a leap year!")
+#else:
+#    print(f"{year} is not a leap year.")

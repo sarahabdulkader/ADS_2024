@@ -8,6 +8,21 @@ An example of how the function should work:
     print(count_matching_elements(m, 1)) # prints 3
 """
 # Provide your solution here
+my_matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+count = 0
+def count_matching_elements(my_matrix: list, element: int):
+  for row in range(my_matrix):
+    for entry in row:
+      if entry == element:
+        count =+ 1
+  print(count)
+
+count_matching_elements(my_matrix, element = 3)
+
+
+
+
+
 
 """
 GO - Game
@@ -28,7 +43,12 @@ The function should return the value 1 if player 1 won, and the value 2 if playe
 If both players have the same number of pieces on the board, the function should return the value 0.
 """
 # Provide your solution here
+winner = ""
+def who_won():
 
+
+
+  return winner
 
 """
 Check Row in Sudoku
